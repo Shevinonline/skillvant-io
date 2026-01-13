@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@400;500;600&family=Space+Grotesk:wght@700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-skillvant-black text-white font-inter antialiased overflow-x-hidden;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-space-grotesk;
+  }
+}
+
+.glass-nav {
+  @apply backdrop-blur-md bg-black/50 border-b border-white/10;
+}
